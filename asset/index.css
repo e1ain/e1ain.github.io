@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body {
+    
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/hip-square.png);
+    font-family:Microsoft JhengHei; 
+}
+
+.content{
+    background-color: #4F5D75;
+    margin: 30px 50px;
+    padding: 40px;
+    border-radius: 10px;    
+}
+
+.word{
+    font-size: 1.2em;
+    line-height: 2.2em;
+    background-color: #BFC0C0;
+    border-radius: 20px;
+    padding: 18px 90px 30px 90px;
+    display: inline-block;
+}
+
+.photo{   
+    float: left;
+    margin: 0px 180px ;
+    width: 260px;
+    height: 342px;
+    border-radius: 10%;
+    border: black 6px double;
+}
+
+.se{
+    font-size: 1em;
+    text-align: right;
+    margin: 20px;
+    color: white;
+    font-family: Arial;
+}
+
+.tit{
+    text-align: center;
+    font-size: 2em;
+    background-color: #EF8354;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.icon{
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.card{
+    background-color: white;
+    margin: 30px 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.logo{   
+    text-align: center;
+}
+
+.lo{
+    width: 120px;
+    height: 120px;
+    margin: 20px 54px 0px 54px;
+    display: inline-block; 
+}
+
+.school{
+    text-align: center;
+    font-size: 1.5em;
+    padding: 20px;
+}
+
+.sch{
+    background-color: #2D3142;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 5px 61px 0px 61px;
+    display: inline-block;
+}
+
+.skill{
+    background-color: #4F5D75;
+    margin: 30px 50px;
+    padding: 30px;
+    border-radius: 10px;    
+}
+
+.bar {
+    display: block;
+    font-size: 18px;
+    width: 400px;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  .item {
+    width: 130px;   
+  }
+  
+  .barbg {
+    width: 1030px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: white;
+    overflow: hidden;
+  }
+  
+  .barload {
+    height: 30px;
+    border-radius: 10px;
+    background: #EF8354;
+    -webkit-animation: load 3s ease-in;
+  }
+  
+  @-webkit-keyframes load {
+    0% {
+      width: 0%;
+    }
+  
+    100% {}
+  }
+  
+  .club{
+      background-color:#BFC0C0;
+      margin: 30px 50px;
+      padding: 30px;
+      border-radius: 10px;
+  }
+
+  .clubphoto{
+      width: 400px;
+      height: 250px;
+      margin: 30px 20px 10px 20px; 
+      border-radius: 20px;
+      border: #2D3142 6px double;
+  }
+
+  .txt{
+      color: #2D3142;
+      font-size: 1.2em;
+      padding: 0px 70px 25px 70px;
+      display: inline-block;
+}
